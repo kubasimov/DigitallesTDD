@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{9D86512E-38A4-4CCB-B599-E520BDDBE29D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CORE", "CORE", "{A726C53A-3261-462E-B30D-58FB72794AAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CONSOLE", "CONSOLE", "{AE1922D1-A4E8-4289-A9BC-2497AECB6B43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TEST", "TEST", "{4A85C8A4-42F0-4878-8495-999653C29FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreTests", "CoreTests\CoreTests.csproj", "{0CEE58E5-66C7-4E52-99CE-4C06DC0B2EA6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CEE58E5-66C7-4E52-99CE-4C06DC0B2EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEE58E5-66C7-4E52-99CE-4C06DC0B2EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEE58E5-66C7-4E52-99CE-4C06DC0B2EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEE58E5-66C7-4E52-99CE-4C06DC0B2EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0CEE58E5-66C7-4E52-99CE-4C06DC0B2EA6} = {4A85C8A4-42F0-4878-8495-999653C29FA9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3CC16DA-8CD1-4EE7-8199-DA0409546755}
